@@ -1,0 +1,53 @@
+<style type="text/css">
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #000000;
+	}
+	li{
+		float: left;
+		border-right: 1px solid #bbb;
+	}
+	li a{
+		color: white;
+		text-align: center;
+		padding: 15px;
+		text-decoration: none;
+		display: block;
+	}
+	.l1{
+	    font-size:24px; 
+	    color:#000;
+	    text-align:right;
+	    float: right;
+	    padding: 5px;
+    }
+    .f1{
+	    width: 50px;
+	    padding: 5px;
+    }	
+    .f2{
+	    width: 200px;
+	    float: left;
+  	    padding: 5px;
+    }
+	.d1{
+		background:#708090 ;
+	    width: 100%;   
+	    height: 750px;
+	}
+    button {
+        background-color: #FFFACD;
+	    border: none;
+	    color: black;
+	    padding: 15px 32px;
+	    text-align: center;
+	    display: inline;
+	    margin: 4px 2px;
+	    font-size: 20px;
+	    width: 100%;
+    }
+	
+</style>
