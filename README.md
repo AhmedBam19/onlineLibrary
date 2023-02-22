@@ -13,7 +13,7 @@ Library website for reading book, allows you to :
 - php
 # Database
 - phpmyadmin
-# ================ **Install Database** ==================
+# ============== **Install Database** ================
 1. Open a new file in phpMyAdmin
 2. Database name: online_library
 3. go Import
