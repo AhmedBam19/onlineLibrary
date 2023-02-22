@@ -6,7 +6,10 @@ Library website for reading book, allows you to :
 - View Books information
 - View Books
 # Code explanations
- [YouTube Link](https://www.youtube.com/watch?v=hedXyscfzwM)
+ [YouTube Link]()
 # Programing tool
-
+- Visual Studio
 # Programing language
+- php
+# Databeas
+- phpmyadmin
