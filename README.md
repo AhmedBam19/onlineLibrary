@@ -9,7 +9,7 @@ Library website for reading book, allows you to :
  [YouTube Link](https://www.youtube.com/watch?v=fbEl78vA0oQ)
 # Programing tool
 - Visual Studio
-# Programing language
+# Programing used
 - php
 - css
 # Database
