@@ -14,22 +14,16 @@
 <div style="background:#5F9EA0 ; width: 100%; height: 100%;">
 <center><h2><h2></center>
 	<div style="text-align:right; float: right;width: 500px;font-size:24px;">
-		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
 		<center>
-		<label>اسم المترجم</label><br>
-		<label style="color: blue;">اميرة عبدالصادق</label><br>
-		<label>اللغة</label><br>
-		<label style="color: blue;">العربية</label><br>
-		<label>تاريخ الاصدار</label><br>
-		<label style="color: blue;">2011</label><br>
-		<label>دار النشر</label><br>
-		<label style="color: blue;">مؤسسة هنداوي</label><br>
-		<label>عدد الصفحات</label><br>
-		<label style="color: blue;">70</label><br>
-		<label>نبذه عن الكتاب</label><br>
-		<p style="color: blue; direction: rtl;">
-			الف ليلة وليلة هو كتاب يتضمّن مجموعة من القصص التي وردت في غرب وجنوب آسيا بالإضافة إلى الحكايات الشعبية التي جُمِعت وتُرجمت إلى العربية خلال العصر الذهبي للإسلام. 
-		</p>
+		<?php
+
+require_once 'Contact.php';
+$contact = new Contact("الف ليلة وليلة","اميرة عبدالصادق","العربية",2011,"مؤسسة هنداوي",70,"الف ليلة وليلة هو كتاب يتضمّن مجموعة من القصص التي وردت في غرب وجنوب آسيا بالإضافة إلى الحكايات الشعبية التي جُمِعت وتُرجمت إلى العربية خلال العصر الذهبي للإسلام.");
+
+echo $contact->getInfo();
+
+?>
 	</center>
 	</div>
     <div>

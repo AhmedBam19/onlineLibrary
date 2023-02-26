@@ -14,24 +14,19 @@
 <div style="background:#5F9EA0 ; width: 100%; height: 100%;">
 <center><h2><h2></center>
 	<div style="text-align:right; float: right;width: 500px;font-size:24px;">
-		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
 		<center>
-		<label>اسم المؤلف</label><br>
-		<label style="color: blue;">راجي عنايت</label><br>
-		<label>اللغة</label><br>
-		<label style="color: blue;">العربية</label><br>
-		<label>تاريخ الاصدار</label><br>
-		<label style="color: blue;">1995</label><br>
-		<label>دار النشر</label><br>
-		<label style="color: blue;">دار الشروق</label><br>
-		<label>عدد الصفحات</label><br>
-		<label style="color: blue;">112</label><br>
-		<label>نبذه عن الكتاب</label><br>
-		<p style="color: blue; direction: rtl;">
-			في بعض الأحيان كانت أجراس التليفونات تدق جميعها في نفس الوقت، دون أن يكون هناك أى متكلم على الجانب الآخر منها. وخلال أحاديث العمل التليفونية، كان المتحدث يسمع أصوات طقطقة وتكتكة تشتت فكره. <br>
+		<?php
+
+require_once 'Contact.php';
+$contact = new Contact("الاشباح المشاغبة","راجي عنايت","العربية",1995,"دار الشروق",112,"في بعض الأحيان كانت أجراس التليفونات تدق جميعها في نفس الوقت، دون أن يكون هناك أى متكلم على الجانب الآخر منها. وخلال أحاديث العمل التليفونية، كان المتحدث يسمع أصوات طقطقة وتكتكة تشتت فكره. 
 
 قدم مدیر المكتب شكوی لی شرکة التلیفونات. فأوفدت الشركة بعض مهندسيها لإصلاح الخلل إلا أنهم لم يكتشفوا أى خلل في الأجهزة أو التوصيلات. وكل ما قالوه عند انصرافهم هو أن الخطوط التليفونية للمكتب في أحسن حال.
-		</p>
+");
+
+echo $contact->getInfo();
+
+?>
 	</center>
 	</div>
     <div>
